@@ -1,0 +1,193 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPsYt1btQFWVGc1eICYqov1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/ZeiGorgeous5/BSIS2-DV-LAB8-ZEIALOMISEN/blob/main/Lab8_For_Loops\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1W0wmWPI_VSs",
+        "outputId": "0c9be386-f0b7-4dfd-9165-f7d240611fc0"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Z\n",
+            "E\n",
+            "I\n",
+            "E\n",
+            "R\n",
+            "R\n",
+            "I\n",
+            "N\n",
+            "E\n",
+            " \n",
+            "V\n",
+            "I\n",
+            "O\n",
+            "N\n",
+            "I\n",
+            "E\n",
+            "C\n",
+            "E\n"
+          ]
+        }
+      ],
+      "source": [
+        "\n",
+        "myName=\"ZEIERRINE VIONIECE\"\n",
+        "for x in myName:\n",
+        "  print(x)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "Range=(11)\n",
+        "for x in range(11):\n",
+        "   print(x)\n",
+        "else:\n",
+        "   print(\"Finally finished!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Rklt09Qa_twz",
+        "outputId": "2635ea9a-80d6-4b16-f53d-b1cd94199ee9"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n",
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n",
+            "6\n",
+            "7\n",
+            "8\n",
+            "9\n",
+            "10\n",
+            "Finally finished!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "thislist=[\"SABER\",\"ALUCARD\",\"DYRROTH' Temptation\"]\n",
+        "for x in thislist:\n",
+        "  print(x)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Zli6b6-QBLsB",
+        "outputId": "3a94eed6-3d88-4d0e-c398-ddf4b8bbc067"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "SABER\n",
+            "ALUCARD\n",
+            "DYRROTH' Temptation\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "\n",
+        "list(range(0,15))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hA2ZKDxHBNmK",
+        "outputId": "3dd690c9-483a-4256-93ed-c21ff15ba230"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 6
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "category=['FIGHTER','ASSASIN','CHARGE']\n",
+        "for i in range(len(category)):\n",
+        "  print(clans[i])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8nEFs2RGBOJ-",
+        "outputId": "f0472c89-6c3e-4727-8fbe-04cea36e1903"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "FIGHTER\n",
+            "ASSASIN\n",
+            "CHARGE\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
